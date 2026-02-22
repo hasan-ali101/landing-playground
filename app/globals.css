@@ -10,6 +10,19 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  --animate-intro: intro 1s cubic-bezier(0.645, 0.045, 0.355, 1) 0.25s forwards;
+
+  @keyframes intro {
+    from {
+      opacity: 1;
+      height: 0;
+      width: 0;
+    }
+    to {
+      opacity: 0.5;
+    }
+  }
 }
 
 @media (prefers-color-scheme: dark) {

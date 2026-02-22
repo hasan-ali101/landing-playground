@@ -17,7 +17,7 @@ export const HelmetCanvas = () => {
         setIsInView(entry.isIntersecting);
       },
       {
-        threshold: 0.2, // Percent of the element that needs to be visible to trigger
+        threshold: 0.1, // Percent of the element that needs to be visible to trigger
         rootMargin: "200px", // Start loading slightly before it enters viewport (200px margin)
       },
     );

@@ -2,17 +2,55 @@ import { HelmetCanvas } from "./components/helmet-canvas";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen py-20 flex-col gap-20 items-center font-sans bg-black">
+    <div className="flex py-40 flex-col gap-20 items-center font-sans bg-black">
+      <section className="w-full flex justify-center">
+        <div className="border-l border-dashed border-gray-300/40 h-130 -mt-10 -mr-10 animate-intro opacity-0" />
+        <div className="flex w-10/12 flex-col text-center items-center">
+          <div className="border-t border-dashed border-gray-300/40 w-full animate-intro opacity-0" />
+
+          <h1 className="font-bold col-start-2 text-5xl md:text-7xl py-6 col-span-3 px-6">
+            The React Framework for the Web
+          </h1>
+
+          <div className="border-t border-dashed border-gray-300/40 w-full animate-intro opacity-0" />
+
+          <div className="py-6 flex w-full justify-center px-6">
+            <p className="text-zinc-400 max-w-5xl text-lg lg:text-2xl">
+              Used by some of the world's largest companies, Next.js enables you
+              to create high-quality web applications with the power of React
+              components.
+            </p>
+          </div>
+
+          <div className="border-t border-dashed border-gray-300/40 w-full animate-intro opacity-0" />
+
+          <div className="flex">
+            <div className="border-l border-dashed border-gray-300/40 h-full  animate-intro opacity-0" />
+
+            <div className="flex flex-col gap-4 justify-center  p-6">
+              <div className="font-medium flex gap-4">
+                <button className="border h-fit px-6 py-3 w-fit rounded-md bg-white text-black">
+                  Get Started
+                </button>
+                <button className="border h-fit border-zinc-200/30 px-6 py-3 w-fit rounded-md">
+                  Learn More
+                </button>
+              </div>
+              <p className="text-zinc-400 text-sm">
+                npx create-next-app@latest
+              </p>
+            </div>
+            <div className="border-l border-dashed border-gray-300/40 h-full animate-intro opacity-0" />
+          </div>
+
+          <div className="border-t border-dashed border-gray-300/40 w-full animate-intro opacity-0" />
+        </div>
+
+        <div className="border-l border-dashed border-gray-300/40 h-130 -mt-10 -ml-10 animate-intro  opacity-0" />
+      </section>
+
       <section className="flex flex-col gap-10 py-16 px-6 md:px-10 ">
         <h1 className="font-bold text-4xl">Open AI News Grid</h1>
-        <div className="w-fit min-w-100 h-40 border border-white/20 rounded-md p-6 flex flex-col  text-left gap-4">
-          <p>All you need to make this work:</p>
-          <ul className="list-disc list-inside">
-            <li>sticky</li>
-            <li>self-start</li>
-            <li>top</li>
-          </ul>{" "}
-        </div>
         <div className="grid grid-cols-1 lg:grid-cols-4 w-full h-full gap-20 lg:gap-4">
           <div className="col-span-1 lg:col-span-3  lg:sticky lg:top-10 self-start font-medium flex flex-col gap-4">
             <div className="md:aspect-video rounded-lg aspect-4/5 bg-white"></div>
