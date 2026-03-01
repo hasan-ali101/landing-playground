@@ -3,13 +3,13 @@ import { HelmetCanvas } from "./components/helmet-canvas";
 
 export default function Home() {
   return (
-    <div className="flex py-40 flex-col gap-20 items-center font-sans bg-black">
+    <div className="flex py-40 flex-col gap-20 items-center font-sans bg-[#131209] text-white">
       <section className="w-full flex justify-center min-h-screen">
         <div className="border-l border-dashed /border-gray-300/60 h-130 -mt-10 -mr-10 animate-intro opacity-0" />
         <div className="flex w-10/12 flex-col text-center items-center">
           <div className="border-t border-dashed /border-gray-300/60 w-full animate-intro opacity-0" />
 
-          <h1 className="font-bold col-start-2 text-5xl md:text-7xl py-6 col-span-3 px-6">
+          <h1 className="font-bold col-start-2 text-5xl md:text-6xl py-6 col-span-3 px-6">
             The React Framework for the Web
           </h1>
 
@@ -30,10 +30,10 @@ export default function Home() {
 
             <div className="flex flex-col gap-4 justify-center  p-6">
               <div className="font-medium flex gap-4">
-                <button className="border h-fit px-6 py-3 w-fit rounded-md bg-white text-black">
+                <button className="border h-fit px-3 md:px-6 py-3 w-fit rounded-md bg-white text-black">
                   Get Started
                 </button>
-                <button className="border h-fit border-zinc-200/30 px-6 py-3 w-fit rounded-md">
+                <button className="border h-fit border-zinc-200/30 px-3 md:px-6 py-3 w-fit rounded-md">
                   Learn More
                 </button>
               </div>

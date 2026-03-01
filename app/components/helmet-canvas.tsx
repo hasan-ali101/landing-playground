@@ -91,15 +91,6 @@ export const HelmetCanvas = () => {
           </Canvas>
         )}
       </div>
-      <div className="border-t p-20 border-x rounded-t-lg border-white/20 h-100 md:h-150 bg-linear-to-b from-purple-200/10 to-blue-300/30 from-50% flex items-center justify-center relative">
-        <div className="absolute inset-1 bg-linear-to-b from-purple-400/5 to-indigo-400/30 rounded-3xl blur-md"></div>
-        <div className="relative w-full h-full rounded-lg">
-          <div className="w-full h-full bg-white/80 flex flex-col justify-center rounded-lg items-center z-20 absolute">
-            <p className="text-black">& Glowing Card</p>
-          </div>
-          <div className="absolute bg-indigo-300 blur-lg z-10 -inset-3" />
-        </div>
-      </div>
     </div>
   );
 };
