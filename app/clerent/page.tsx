@@ -28,7 +28,7 @@ export default function Home() {
 
   return (
     <div
-      className={`flex flex-col dark:bg-[#111008] text-[#111008] md:px-4  pb-10 relative dark:text-[#F7F7F4] bg-[#F7F7F4] items-center gap-15 md:gap-25 ${inter.variable}`}
+      className={`flex flex-col dark:bg-[#111008] text-[#111008] md:px-4  pb-10 relative dark:text-[#F7F7F4] bg-[#F7F7F4] items-center gap-10 md:gap-15  ${inter.variable}`}
     >
       <nav className="w-full sticky top-0 flex justify-center  dark:border-gray-300/90 border-gray-900/10 z-50  dark:bg-[#F7F7F4]/70 bg-[#111008]/70 backdrop-blur-3xl text-[#F7F7F4] dark:text-[#111008]">
         <div className="w-full flex max-w-350  md:px-12 lg:px-20 px-4 items-center justify-between py-4">
@@ -63,7 +63,6 @@ export default function Home() {
             <div className="border-l border-dashed dark:border-gray-300/60 border-gray-900/70 h-90 sm:h-80 md:h-90 -mt-3 md:-mt-5 -mr-3 md:-mr-5 lg:-mr-10 animate-intro opacity-0" />
             <div className="flex flex-col  items-start">
               <div className="border-t border-dashed dark:border-gray-300/60 border-gray-900/70 w-full animate-intro opacity-0" />
-
               <h1
                 className={`font-bold col-start-2 text-2xl/9 md:text-3xl/10 lg:text-4xl/12 py-4 col-span-3 px-5 md:px-12 lg:px-20 tracking-wide ${titleFont.className}`}
               >
@@ -83,7 +82,7 @@ export default function Home() {
               <div className="flex w-full md:w-fit">
                 <div className="flex flex-col gap-4 justify-center py-4 px-5 w-full md:px-12 lg:px-20">
                   <div className="font-medium flex gap-4 justify-start">
-                    <button className="border h-fit border-zinc-200/30 px-3 md:px-4 py-2 w-fit rounded-md bg-[#111008]/70 text-white text-sm">
+                    <button className="border h-fit border-zinc-200/30 px-3 md:px-4 py-2 w-fit rounded-md bg-[#111008]/75 text-white text-sm">
                       Request a demo
                     </button>{" "}
                     <button className="border h-fit px-3 md:px-4 py-2 w-fit rounded-md bg-white text-[#111008] text-sm">
